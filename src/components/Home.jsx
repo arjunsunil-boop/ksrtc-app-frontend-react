@@ -9,6 +9,7 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <br /><br /><br /><br />
                         <div className="row g-3">
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
@@ -52,7 +53,9 @@ const Home = () => {
                                 </div>
 
                             </div>
+                            
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <br /><br />
 
                                 <p>View more of our buses by clicking the button below!</p>
 
@@ -60,11 +63,12 @@ const Home = () => {
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
 
-                                <button className="btn btn-primary">View More</button>
+                            <a href="/view" class="btn btn-secondary">View More</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <br /><br /><br />
             </div>
 
         </div>
