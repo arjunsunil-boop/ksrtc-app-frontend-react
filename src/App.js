@@ -5,12 +5,14 @@ import AddBus from './components/AddBus';
 import Search from './components/Search';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import DeleteBus from './components/DeleteBus';
+import ViewBus from './components/ViewBus';
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <Home/>
+      <ViewBus/>
 
     </div>
   );
