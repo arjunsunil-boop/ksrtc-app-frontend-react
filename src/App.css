@@ -1,9 +1,6 @@
+  
   .card:hover {
-    background-color: rgb(99, 128, 126);
-    transform: scale(1.1);
-  }
-  .card:hover {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(241, 241, 241);
     transform: scale(1.01);
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
